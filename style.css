@@ -15,23 +15,31 @@
 }
 
 header{
-    background-color: black;
+    background-image: url('imagens/cordel-1.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     text-align: center;
+
+    padding-top: 60px;
+    padding-bottom: 60px ;
+
 }
 
 header > h1{
     /*text-transform: uppercase;*/
+    background-color: black;
     font-family: var(--font3);
     font-size: 120px;
     font-variant: small-caps;
-    padding-top: 50px;
 
 }
 
 header > p{
+    background-color: black;
     font-family: var(--font1);
-    padding-bottom: 40px ;
 }
 
 header a, footer a{
